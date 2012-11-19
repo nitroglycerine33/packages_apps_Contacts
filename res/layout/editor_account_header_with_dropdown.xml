@@ -20,7 +20,7 @@
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:minHeight="48dip"
-    android:background="#EEEEEE"
+    android:background="#010101"
     android:orientation="horizontal"
     android:gravity="center_vertical"
     android:paddingLeft="@dimen/account_container_left_padding"
@@ -39,6 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#d0d0d0"
             android:singleLine="true"
             android:ellipsize="end" />
 
@@ -48,7 +49,7 @@
              android:layout_height="wrap_content"
              android:paddingRight="8dip"
              android:textAppearance="?android:attr/textAppearanceSmall"
-             android:textColor="?android:attr/textColorTertiary"
+             android:textColor="#d0d0d0"
              android:singleLine="true"
              android:ellipsize="end" />
 
