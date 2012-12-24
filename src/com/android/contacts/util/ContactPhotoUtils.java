@@ -30,7 +30,6 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 /**
  * Utilities related to loading/saving contact photos.
@@ -70,7 +69,7 @@ public class ContactPhotoUtils {
 
     public static String generateTempPhotoFileName() {
         Date date = new Date(System.currentTimeMillis());
-        SimpleDateFormat dateFormat = new SimpleDateFormat(PHOTO_DATE_FORMAT, Locale.US);
+        SimpleDateFormat dateFormat = new SimpleDateFormat(PHOTO_DATE_FORMAT);
         return "ContactPhoto-" + dateFormat.format(date) + ".jpg";
     }
 
